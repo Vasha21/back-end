@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Lista de Casas</title>
+</head>
+<body>
+    
+    
+
+
+
+    <div class="top-bar">
+        <img src="img/emblema.png" alt="Logo" width="90px" height="100px"> <!-- Sua foto aqui -->
+        <div
+            style="font-size: 80px; color: rgb(221, 181, 0); margin-right: 150px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 60px; font-style: oblique;">
+            Your Place</div>
+        <div class="button-container">
+        </div>
+    </div>
+    
+    <div class="second-top-bar">
+        <div class="button-container" style="margin-left: 625px;">
+
+            <a href="usuario.html"><button>Cadastrar</button></a>
+            <button style="height: 40px;" onclick="location.href='cadastroImovel.html'">Inserir Imóvel</button>
+           
+
+        </div>
+    </div>
+    
+
+    
+    <h1>Lista de Casas</h1>
+
+    <div>
+        <strong>ID do Usuário:</strong> <span id="usuarioId"></span>
+    </div>
+    
+    <ul id="listaCasas">
+        <!-- Os itens da lista de casas serão adicionados dinamicamente aqui -->
+    </ul>
+    
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
